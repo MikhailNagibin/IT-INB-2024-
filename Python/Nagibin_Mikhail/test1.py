@@ -43,7 +43,8 @@ def f(data, s):
         el[0] -= 10 * s
         ans += 1
         s = el[1]
-        ans += ceil(el[0] / (10 * s))
+        if el[0] > 0:
+            ans += ceil(el[0] / (10 * s))
     return ans
 
 
@@ -56,3 +57,8 @@ ans = []
 for el in new_data:
     ans.append(f(el, s))
 print(min(ans))
+
+'''
+1 5
+10 1
+'''

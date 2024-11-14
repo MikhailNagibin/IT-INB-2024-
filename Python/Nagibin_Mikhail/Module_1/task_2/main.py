@@ -1,4 +1,4 @@
-#TODO Код писать здесь.
+
 
 import sys
 import platform
