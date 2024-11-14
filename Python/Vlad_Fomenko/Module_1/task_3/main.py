@@ -10,3 +10,4 @@ for x in range (len(A)):
             F.write(End)
             F.write("\n")
 
+print("CHYCHMEK")
